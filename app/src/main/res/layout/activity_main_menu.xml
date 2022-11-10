@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393535"
+    tools:context=".MainMenu">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/rectangle_3__1_" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/ellipse_3" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="80dp"
+            app:srcCompat="@drawable/ellipse_3" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="140dp"
+            app:srcCompat="@drawable/ellipse_3" />
+
+        <ImageButton
+            android:id="@+id/ButtonPerson"
+            android:layout_width="28dp"
+            android:layout_height="17dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginVertical="18dp"
+            app:srcCompat="@drawable/_icon__person_" />
+
+        <ImageButton
+            android:id="@+id/buttonBell"
+            android:layout_width="25dp"
+            android:layout_height="22dp"
+            android:layout_marginHorizontal="87dp"
+            android:layout_marginVertical="15dp"
+            app:srcCompat="@drawable/_icon__bell_" />
+
+        <ImageButton
+            android:id="@+id/ButtonSearch"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_marginHorizontal="150dp"
+            android:layout_marginVertical="15dp"
+            app:srcCompat="@drawable/_icon__search_" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="75dp"
+            app:srcCompat="@drawable/ellipse_5" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="45dp"
+            android:layout_height="37dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginVertical="80dp"
+            app:srcCompat="@drawable/_icon__folder_remove_" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginVertical="75dp"
+            android:text="Дмитрий Лычагин"
+            android:textColor="#FAF7F7"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginVertical="90dp"
+            android:text="+7 (912) 233-93-65"
+            android:textColor="#BDB9B9" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="150dp"
+            app:srcCompat="@drawable/line_1" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginVertical="149dp"
+            app:srcCompat="@drawable/line_2" />
+
+        <ImageButton
+            android:id="@+id/buttonNews"
+            android:layout_width="81dp"
+            android:layout_height="69dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="175dp"
+            app:srcCompat="@drawable/rectangle_4" />
+
+        <ImageButton
+            android:id="@+id/buttonNews2"
+            android:layout_width="76dp"
+            android:layout_height="73dp"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginVertical="174dp"
+            app:srcCompat="@drawable/rectangle_5" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="82dp"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="220dp"
+            android:layout_marginVertical="175dp"
+            app:srcCompat="@drawable/rectangle_6" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="75dp"
+            android:layout_height="72dp"
+            android:layout_marginHorizontal="320dp"
+            android:layout_marginVertical="175dp"
+            app:srcCompat="@drawable/rectangle_7" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="164dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="281dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rectangle_8" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
